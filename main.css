@@ -1,0 +1,140 @@
+
+
+.mainIcon {
+	width: 100px;
+	height: 100px;
+}
+
+.main-header-wrapper {
+	height: 100px;
+	margin: auto;
+	background-color: #000;
+	color: #FFF;
+	transition: 1s;
+}
+
+.main-header-wrapper h1 {
+	text-align: center;
+}
+
+.content-wrapper h4 {
+	/*margin-left: 20%;*/
+	/*margin-right: 20%;*/
+	margin: auto;
+	text-align: center;
+}
+
+
+h1 {
+	float: right;
+	margin-right: 40%;
+
+}
+
+.sticky-email {
+	margin: -1px 0 0 0;
+	padding: 15px 0px 15px 0;
+	color: white;
+	text-align: center;
+	transition: 2s;
+}
+
+
+.key-features {
+	margin-left: 20%;
+	margin-top: 50px;
+}
+
+.key-features li {
+	margin-bottom: 30px;
+}
+
+.app-images {
+	box-shadow: 10px 10px 5px #888888;
+	margin: auto;
+	margin-bottom: 50px;
+	width: 950px;
+}
+
+.app-images img {
+	margin-right: 10px;
+	padding: 20px;
+	background-color: rgba(195, 195, 195, 0.4);
+}
+
+.screenshots {
+	width: 264px;
+	height: 435px;
+}
+
+
+
+
+footer {
+	border-top: 1px solid rgb(204, 204, 204);
+	margin-top: 40px;
+}
+
+.footer-content {
+	margin: auto;
+	text-align: center;
+}
+
+.is-sticky .main-header-wrapper {
+	background-color: #000;
+}
+
+.is-sticky .sticky-email {
+	background-color: white;
+	color: black;
+	margin: -1px 0 0 0;
+	background-color: white;
+	padding: 15px 0 15px 0;
+}
+
+.is-sticky h4 a {
+	color: black;
+}
+
+h4 a {
+	color: #555;
+}
+
+
+
+
+
+/* Media Queries */
+@media (max-width: 982px) {
+	.app-images {
+		width: 632px;
+	}
+}
+
+@media (max-width: 800px) {
+	h1 {
+		margin-right: 30%;
+	}
+}
+
+@media (max-width: 620px) {
+	h1 {
+		margin-right: 25%;
+		font-size: 23px;
+		margin-top: 60px;
+	}
+
+	.app-images {
+		width: 222px;
+	}
+
+	.screenshots {
+		width: 182px;
+		height: 300px;
+	}
+
+	.content-wrapper {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}
